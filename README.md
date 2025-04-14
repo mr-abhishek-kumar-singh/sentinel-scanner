@@ -58,7 +58,7 @@ The tool will run all scans sequentially with a progress bar. After execution, i
 - Detailed scan report
 - Overall security score out of 10
 - Clear indication that the tool is a prototype and may yield false positives
-- Suggestion to reach out to the LinuxMantra team for a deeper analysis
+- Suggestion to reach out to the SecureT team for a deeper analysis
 
 ---
 
