@@ -9,7 +9,6 @@ A comprehensive command-line based security assessment prototype designed for pr
 - **Basic Reconnaissance**
 
   - Subdomain enumeration
-  - WHOIS lookup
   - DNS analysis
 
 - **Website Security Analysis**
@@ -17,7 +16,6 @@ A comprehensive command-line based security assessment prototype designed for pr
   - SSL/TLS check
   - HTTP headers inspection
   - Cookie security checks
-  - Outdated software detection
 
 - **Vulnerability Scanning**
 
@@ -25,29 +23,20 @@ A comprehensive command-line based security assessment prototype designed for pr
   - Directory enumeration
   - Sensitive file detection
   - API exposure
-  - JavaScript leaks
 
 - **Open Port & Service Enumeration**
 
   - Port scanning
   - Service detection
-  - Exposed databases identification
 
 - **Email & SPF Security Checks**
 
   - SPF, DKIM, and DMARC analysis
-  - Mail server misconfiguration detection
-
-- **Data Breach & Reputation Analysis**
-
-  - Pwned email checks
-  - Blacklist monitoring
 
 - **Custom Report Generation**
 
-  - PDF/HTML output
+  - Text/HTML output
   - Risk ratings
-  - Embedded screenshots
 
 - **Bonus Enhancements**
 
@@ -61,7 +50,7 @@ A comprehensive command-line based security assessment prototype designed for pr
 ## Usage
 
 ```bash
-python3 main.py --url https://example.com
+python3 sentinel.py -t https://example.com
 ```
 
 The tool will run all scans sequentially with a progress bar. After execution, it provides:
@@ -95,7 +84,7 @@ colorama
 
 This tool is for **educational and demonstration purposes only**. It is a **prototype** and may contain **false positives**. Use only on systems you own or have explicit permission to assess.
 
-For a detailed and professional assessment, contact the **LinuxMantra** team.
+For a detailed and professional assessment, contact the **SecureT** team.
 
 ---
 
