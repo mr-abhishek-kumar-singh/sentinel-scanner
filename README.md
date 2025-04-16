@@ -84,7 +84,6 @@ colorama
 
 This tool is for **educational and demonstration purposes only**. It is a **prototype** and may contain **false positives**. Use only on systems you own or have explicit permission to assess.
 
-For a detailed and professional assessment, contact the **SecureT** team.
 
 ---
 
